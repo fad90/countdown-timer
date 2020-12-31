@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/img/night.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+h1 {
+    font-size: 4rem;
+}
+.countdown-container {
+    display: flex;
+}
+.days-container {
+    
+}
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-element {
+    text-align: center;
+}
+.countdown-element span {
+    font-size: 2rem;
+}
