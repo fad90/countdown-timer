@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(/img/night.jpg);
+    background-image: url(/img/snow1.jpg);
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -13,18 +13,21 @@ body {
 }
 h1 {
     font-size: 4rem;
+    color: white;
 }
 .countdown-container {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
-.days-container {
-    
-}
+
 .big-text {
     font-weight: bold;
     font-size: 6rem;
     line-height: 1;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
 }
 .countdown-element {
     text-align: center;
